@@ -1,0 +1,42 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Allow to find the changes made quickly
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    1. Know what was changed along the dev cycle
+    2. Revert back unwanted changes
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    So each commit is more likely to be a logical version.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    1. A collection of files to track & commit together is called a "repository" in GIT.
+    2. A logical change can span multiple files.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    1. Some useful commands:
+       - git clone                         - download entire repository, the dir containing the repo will be created.
+       - git config --global color.ui auto - turn on color
+       - git log --stat                    - list commit IDs with messages to find interested versions. 
+    2. To find out the changes introduced in a particular commit:
+       - git diff [previous_commit_id] [interested_commit_id]
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    1. git checkout [commit_id]
+        - checking out a commit means resetting all files to how they were at the time of that commit.
+    2. checkout can be used to revert back to previous versions before changes which introduced bugs were made.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    My apps
