@@ -5,3 +5,5 @@
     -Working directory contains the copy of the code the user currently working on.
     -Staging area contains the changes made in the working directory since the last commit in the repository.
 
+*How can you use the staging area to make sure you have one commit per logical change?
+    -Only add files related to the logical change to the staging area.
