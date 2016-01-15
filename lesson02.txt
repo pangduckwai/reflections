@@ -10,3 +10,6 @@
 
 *What are some situations when branches would be helpful in keeping your history organized? How would branches help?
     -Experimental changes; Continue development while maintaining production fixes
+
+*How do the diagrams help you visualize the branch structure?
+    -Make reachability more clear
